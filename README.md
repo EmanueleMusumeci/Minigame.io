@@ -17,6 +17,6 @@ The presented project implements a simple videogame featuring a series of “min
 If an object is highlighted when looking at it, you can pick it up. Wait for it to be highlighted then press F (press the same key to drop it).
 If it's a gun (currently there's only the pistol), press Left Mouse Button while holding it to shoot, otherwise keep Left Mouse Button pressed to charge its launch and then launch it by releasing the button.
 
-[Game link](https://github.com/EmanueleMusumeci/Minigame.io/index.html)
+[Game link](https://github.com/EmanueleMusumeci/Minigame.io)
 
 Notice: the game has sounds but Babylon.js requires you to click on the speaker icon (in the upper left corner of the canvas) to enable them.
