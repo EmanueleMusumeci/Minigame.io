@@ -600,4 +600,23 @@ class GUI {
         var menu = GUI.getMainMenu()
         menu.showCurrentPage()
     }
+
+    
+    static createLoadingScreen() {
+        function loadingScreen() {
+            console.log("Loading screen created");
+        }
+
+        loadingScreen.prototype.displayLoadingUI = function () {
+            console.log("customLoadingScreen loading");
+            loadingScreenDiv.innerHTML = "loading";
+        }
+
+        loadingScreen.prototype.hideLoadingUI = function () {
+            console.log("customLoadingScreen loading");
+            loadingScreenDiv.innerHTML = "loading";
+        }
+
+        return loadingScreen;
+    }
 }
