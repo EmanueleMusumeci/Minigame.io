@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Minigame.io</title>
+
+        <style>
+            html, body {
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            #renderCanvas {
+                width: 100%;
+                height: 100%;
+                touch-action: none;
+            }
+        </style>
+
+        <script src="Libraries\Babylon\babylon.max.js"></script>
+        <script src="Libraries\Babylon\babylon.gui.min.js"></script>
+        <script src="Libraries\Babylon\babylonjs.materials.js"></script>
+        <script src="Libraries\Babylon\babylon.inspector.bundle.js"></script>
+        <script src="Libraries\Babylon\babylonjs.loaders.min.js"></script>
+        <script src="Libraries\Babylon\babylonjs.postProcess.min.js"></script>
+        <script src="Libraries\Babylon\babylonjs.proceduralTextures.min.js"></script>
+        <script src="Libraries\Babylon\babylonjs.serializers.js"></script>
+        <script src="Libraries\Babylon\cannon.js"></script>
+    </head>
+
+    <body>
+        <canvas id="renderCanvas" touch-action="none"></canvas>
+        <script src="Utils\Utils.js"></script>
+        <script src="Utils\Settings.js"></script>
+        <script src="Materials\materials.js"></script>
+        <script src="GameEngine\GameEngine.js"></script>
+        <script src="Player\PlayerAnimations.js"></script>
+        <script src="Player\PlayerModel.js"></script>
+        <script src="Player\PlayerController.js"></script>
+        <script src="Meshes\PropManager.js"></script>
+        <script src="GameEngine\LevelManager.js"></script>
+        <script src="GameEngine/Physics.js"></script>
+        <script src="GameEngine/GUI.js"></script>
+        <script src="Main.js"></script>
+    </body>
+
+</html>
