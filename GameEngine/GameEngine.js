@@ -34,7 +34,7 @@ class GameEngine {
     }
 
     static startGame() {
-        getAudioContext().resume();
+        BABYLON.getAudioContext().resume();
         GameEngine.gameState = GameStates.LOADING
         GameEngine.attachControlListeners()
         canvas.requestPointerLock()
